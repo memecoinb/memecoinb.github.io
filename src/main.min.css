@@ -1368,8 +1368,8 @@ meme-time */
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-column-gap: 30px;
-  display: none;
+  grid-column-gap: 10px;
+  /* display: none; */
 }
 .token-img {
   width: 150% !important;
@@ -1378,23 +1378,38 @@ meme-time */
 @media (min-width: 768px) {
   .button-list {
     display: flex;
+    grid-column-gap: 30px;
   }
   .token-img {
     width: 100% !important;
     transform: translate(0);
   }
 }
-
 .button-list .btnlist {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18.7833px 31.2076px 18.7833px 31.3055px;
-  width: 228.25px;
-  height: 75.57px;
+  padding: 10px;
+  width: 33%;
+  height: auto;
   background: #3ECF52;
-  grid-column-gap: 10px;
+  grid-column-gap: 4px;
   pointer-events: none;
+  font-size: 13px;
+  min-height: 61px;
+}
+@media (min-width: 768px) {
+  .button-list .btnlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18.7833px 31.2076px 18.7833px 31.3055px;
+    width: 228.25px;
+    height: 75.57px;
+    background: #3ECF52;
+    grid-column-gap: 10px;
+    pointer-events: none;
+  }
 }
 
 .button-list .btnlist.l2 {
