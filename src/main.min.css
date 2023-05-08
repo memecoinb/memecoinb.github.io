@@ -878,11 +878,9 @@ ul.link-dex {
   grid-row-gap: 20px;
   margin-top: 30px;
   justify-content: center;
-  position: absolute;
   bottom: 0;
   align-items: center;
   width: 100%;
-  background: #436f3bba;
   margin: auto;
   padding: 12px;
 }
